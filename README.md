@@ -21,40 +21,29 @@ Contains input datasets used for the CRM solution, including cleaned and raw fil
 #### **a. `scripts/sql/`**
 - Contains SQL scripts for data modelling, transformation, and querying.  
 - Scripts include:  
-  - `data_cleaning.sql` – Performs initial data cleansing (e.g., parsing and normalising names and addresses).  
-  - `data_integration.sql` – Joins the `Cleaned_People` and `Cleaned_Companies` datasets.  
-  - `actionable_insights.sql` – Generates insights (e.g., revenue patterns, segmentation).  
+  - `Cleaned_People.sql`
+  - `Number_of_Employees_per_Company.sql`
 
 #### **b. `scripts/python/`**  
 
 ##### **i. `scripts/python/pandas_scripts/`**
-- Contains Python scripts using Pandas for data wrangling, manipulation, and aggregation.  
+- Contains Python scripts using Pandas for data wrangling, manipulation, and aggregation. Also, contains Python scripts using Plotly for creating interactive visualisations.  
 - Example scripts:  
-  - `data_cleaning_pandas.py` – Cleans and preprocesses datasets.  
-  - `segmentation_analysis.py` – Performs customer segmentation.  
-  - `revenue_analysis.py` – Aggregates and analyses revenue data by company, region, or industry.  
+  - `Company_Locations.py`
+  - `Industry_Distribution.py`
+  - `Revenue_Industries_by_State.py`
+  - `Revenue_by_Company.py`
+  - `Top_10_Companies_by_City.py`
+  - `Unique_Job_Titles.py`
 
-##### **ii. `scripts/python/plotly_graphs/`**
-- Contains Python scripts using Plotly for creating interactive visualisations.  
-- Example scripts:  
-  - `revenue_by_company.py` – Creates a horizontal bar chart visualising revenue by company.  
-  - `geographic_revenue_map.py` – Creates a heatmap of revenue by geographic location.  
-  - `industry_revenue_trends.py` – Displays revenue trends by industry over time.  
 
 ### **3. `reports/`**
 Contains reports and documentation generated during the project. Files include:  
 - **Technical Documentation**:  
-  - Explains the approach, assumptions, and methodology used.  
-  - Includes details on SQL queries, Pandas transformations, and Plotly visualisations.  
+  - Explains the approach, assumptions, and methodology used.
 - **Insights Report**:  
-  - Summarises actionable insights derived from the analysis.  
-
-### **4. `presentation/`**
-Contains files for the assessment presentation, including:  
-- `presentation_slides.pptx` – PowerPoint slides explaining the solution.  
-- `dashboard_screenshots/` – Screenshots of the dashboards built in Palantir Foundry.  
-- `summary_report.docx` – A written summary of the project for submission.  
-
+  - Summarises actionable insights derived from the analysis.
+    
 ---
 
 ## How to Use  

@@ -11,22 +11,16 @@ This repository contains the implementation of a **Customer Relationship Managem
 
 ## Folders and Contents  
 
-### **1. `data/`**
+### **`SQL-Plotly-Scripts/`**
 Contains input datasets used for the CRM solution, including cleaned and raw files. Example files:  
 - `Cleaned_People.csv`  
 - `Cleaned_Companies.csv`  
 
-### **2. `scripts/`**  
-
-#### **a. `scripts/sql/`**
 - Contains SQL scripts for data modelling, transformation, and querying.  
 - Scripts include:  
   - `Cleaned_People.sql`
   - `Number_of_Employees_per_Company.sql`
 
-#### **b. `scripts/python/`**  
-
-##### **i. `scripts/python/pandas_scripts/`**
 - Contains Python scripts using Pandas for data wrangling, manipulation, and aggregation. Also, contains Python scripts using Plotly for creating interactive visualisations.  
 - Example scripts:  
   - `Company_Locations.py`
@@ -37,8 +31,7 @@ Contains input datasets used for the CRM solution, including cleaned and raw fil
   - `Unique_Job_Titles.py`
 
 
-### **3. `reports/`**
-Contains reports and documentation generated during the project. Files include:  
+(Draft) Customer Relationship Management Solution Development.pdf contains documentation generated during the project. File includes:  
 - **Technical Documentation**:  
   - Explains the approach, assumptions, and methodology used.
 - **Insights Report**:  

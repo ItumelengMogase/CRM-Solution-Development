@@ -22,7 +22,7 @@ Contains input datasets used for the CRM solution, including cleaned and raw fil
   - `Number_of_Employees_per_Company.sql`
 
 - Contains Python scripts using Pandas for data wrangling, manipulation, and aggregation. Also, contains Python scripts using Plotly for creating interactive visualisations.  
-- Example scripts:  
+- Scripts:  
   - `Company_Locations.py`
   - `Industry_Distribution.py`
   - `Revenue_Industries_by_State.py`
